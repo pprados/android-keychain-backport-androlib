@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Label of button to send the deny the application certificate request -->
+    <string name="deny_button">Deny</string>
+    <!-- Dialog title when no certificates were found -->
+    <string name="title_no_certs">No certificates found</string>
+    <!-- Dialog title when at least one certificate was found -->
+    <string name="title_select_cert">Choose certificate</string>
+    <!-- Label of button to send the allow the application certificate request -->
+    <string name="allow_button">Allow</string>
+    <!-- Used at top of dialog to identify requesting application -->
+    <string name="requesting_application">The app %s has requested a certificate. Choosing a certificate will let the app use this identity with servers now and in the future.</string>
+	<!-- Used at top of dialog to identify requesting server (may be host:port or just host)-->
+    <string name="requesting_server">The app has identified the requesting server as %s, but you should only give the app access to the certificate if you trust the app.</string>
+
+    <string name="keystore_error">Impossible to protect the certificate.</string>
+
+</resources>
