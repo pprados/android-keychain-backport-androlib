@@ -1,5 +1,6 @@
 /bin
 /gen
+/target
 /proguard
 /assets/*.jar
 .codepro/*
